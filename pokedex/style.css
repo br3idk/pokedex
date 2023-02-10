@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(53, 110, 121);
+    color: black;
+    font: normal 15pt Arial;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    width: 200px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+
+    height: 700px;
+    width: 400px;
+
+}
+
+#name {
+    background-color: rgb(163, 163, 163);
+    margin: 20px 20px 30px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+
+#stats {
+    margin-left: 110px;
+    text-align: justify;
+
+}
+
+#btn {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+}

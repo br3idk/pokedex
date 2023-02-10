@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Pokédex</h1>
+    </header>
+
+    <section>
+
+        <div id="name">
+            <h1 id="pokename"></h1> <!--Ficará com string vazia-->
+        </div>
+
+        <div id="pic">
+            <img onclick="clicou()" id="imagem" src="">
+        </div>
+
+        <div id="evolucao">
+            <img id="imagem2" src="">
+        </div>
+
+        <div id="insira">
+            <input type="search" id="pesquisar" placeholder="Nome">
+        </div>
+
+        <button onclick="buscar()" id="btn">Buscar</button> <!--Ativará a função-->
+
+        <div id="stats">
+            <p id="hp">HP:</p>
+            <p id="atk">ATK:</p>
+            <p id="def">DEF:</p>
+            <p id="sp-atk">SP-ATK:</p>
+            <p id="sp-def">SP-DEF:</p>
+            <p id="speed">SPEED:</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; breno.dev</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
