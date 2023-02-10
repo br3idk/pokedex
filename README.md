@@ -1,2 +1,0 @@
-# pokedex
-pokeapi first attempt
